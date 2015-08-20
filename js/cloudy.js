@@ -1,6 +1,6 @@
-$(document).ready(function() {
+var getWeather = function(myCity){
   $.simpleWeather({
-    location: 'Berlin/Germany',
+    location: myCity,
     woeid: '',
     unit: 'c',
     success: function(weather) {
@@ -14,5 +14,16 @@ $(document).ready(function() {
     error: function(error) {
       $("#weather").html('<p>'+error+'</p>');
     }
+  });
+}
+
+$(document).ready(function() {
+  getWeather('Berlin');
+
+
+  $('#show').on('click', function(){
+    var myCity = $('#city').val();
+    if (myCity === ""){ myCity = "Berlin";}
+    getWeather(myCity);
   });
 });
