@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="cloudy">
   <head>
     <meta charset='utf-8'/>
     <title>Cloudy - the weather app</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" charset="utf-8"></script>
+    <script src="http://code.jquery.com/jquery.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
     <script src="js/simpleWeather/jquery.simpleWeather.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type='text/javascript' src='js/cloudy.js'></script>
@@ -11,19 +12,23 @@
     <link rel='stylesheet' type='text/css' href='css/cloudy.css'>
   </head>
   <body>
-    <div class="row">
+    <div class="container">
+      <div class="row">
         <div id="contents" class="col-sm-6 col-sm-offset-3">
-            <div id="weather" ></div>
-            </br>
-            <div class="row">
-                <div class="col-sm-6">
-                    <input id="city" type="text" class="form-control" placeholder="Type in your place here"/>
-                </div>
-                <div class="col-sm-6">
-                    <button id="show" type="button" class="btn btn-lg btn-info">Show me the weather</button>
-                </div>
+          <div id="weather" ></div>
+          </br>
+          <div id="yourPlace">
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+                <input id="city" type="text" class="form-control" placeholder="Type in your place"/>
             </div>
+            <div class="col-sm-6">
+                <button id="show" type="button" class="btn btn-lg btn-info">Cloudy?</button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
   </body>
 </html>
