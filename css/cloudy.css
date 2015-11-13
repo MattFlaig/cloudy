@@ -57,30 +57,30 @@ body {
   content: attr(data-icon);
 }
 
-.icon[data-icon='0']:before { content: "M"; }
-.icon[data-icon='1']:before { content: "H"; }
+.icon[data-icon='0']:before { content: "O"; }
+.icon[data-icon='1']:before { content: "O"; }
 .icon[data-icon='2']:before { content: "O"; }
-.icon[data-icon='3']:before { content: "P"; }
+.icon[data-icon='3']:before { content: "O"; }
 .icon[data-icon='4']:before { content: "O"; }
 .icon[data-icon='5']:before { content: "Q"; }
-.icon[data-icon='6']:before { content: "Q"; }
-.icon[data-icon='7']:before { content: "Q"; }
+.icon[data-icon='6']:before { content: "X"; }
+.icon[data-icon='7']:before { content: "X"; }
 .icon[data-icon='8']:before { content: "Q"; }
-.icon[data-icon='9']:before { content: "V"; }
-.icon[data-icon='10']:before { content: "Q"; }
+.icon[data-icon='9']:before { content: "Q"; }
+.icon[data-icon='10']:before { content: "R"; }
 .icon[data-icon='11']:before { content: "Q"; }
-.icon[data-icon='12']:before { content: "V"; }
+.icon[data-icon='12']:before { content: "R"; }
 .icon[data-icon='13']:before { content: "V"; }
-.icon[data-icon='14']:before { content: "V"; }
-.icon[data-icon='15']:before { content: "Q"; }
+.icon[data-icon='14']:before { content: "U"; }
+.icon[data-icon='15']:before { content: "G"; }
 .icon[data-icon='16']:before { content: "V"; }
-.icon[data-icon='17']:before { content: "Q"; }
-.icon[data-icon='18']:before { content: "R"; }
-.icon[data-icon='19']:before { content: "L"; }
-.icon[data-icon='20']:before { content: "L"; }
-.icon[data-icon='21']:before { content: "L"; }
-.icon[data-icon='22']:before { content: "L"; }
-.icon[data-icon='23']:before { content: "L"; }
+.icon[data-icon='17']:before { content: "P"; }
+.icon[data-icon='18']:before { content: "X"; }
+.icon[data-icon='19']:before { content: "E"; }
+.icon[data-icon='20']:before { content: "N"; }
+.icon[data-icon='21']:before { content: "E"; }
+.icon[data-icon='22']:before { content: "E"; }
+.icon[data-icon='23']:before { content: "F"; }
 .icon[data-icon='24']:before { content: "F"; }
 .icon[data-icon='25']:before { content: "F"; }
 .icon[data-icon='26']:before { content: "Y"; }
@@ -88,22 +88,22 @@ body {
 .icon[data-icon='28']:before { content: "H"; }
 .icon[data-icon='29']:before { content: "H"; }
 .icon[data-icon='30']:before { content: "H"; }
-.icon[data-icon='31']:before { content: "C"; }
+.icon[data-icon='31']:before { content: "B"; }
 .icon[data-icon='32']:before { content: "B"; }
-.icon[data-icon='33']:before { content: "C"; }
-.icon[data-icon='34']:before { content: "B"; }
-.icon[data-icon='35']:before { content: "Q"; }
+.icon[data-icon='33']:before { content: "H"; }
+.icon[data-icon='34']:before { content: "H"; }
+.icon[data-icon='35']:before { content: "P"; }
 .icon[data-icon='36']:before { content: "B"; }
 .icon[data-icon='37']:before { content: "O"; }
 .icon[data-icon='38']:before { content: "O"; }
-.icon[data-icon='39']:before { content: "O"; }
-.icon[data-icon='40']:before { content: "Q"; }
-.icon[data-icon='41']:before { content: "R"; }
-.icon[data-icon='42']:before { content: "V"; }
-.icon[data-icon='43']:before { content: "R"; }
-.icon[data-icon='44']:before { content: "H"; }
-.icon[data-icon='45']:before { content: "P"; }
-.icon[data-icon='46']:before { content: "R"; }
+.icon[data-icon='39']:before { content: "Q"; }
+.icon[data-icon='40']:before { content: "R"; }
+.icon[data-icon='41']:before { content: "W"; }
+.icon[data-icon='42']:before { content: "W"; }
+.icon[data-icon='43']:before { content: "W"; }
+.icon[data-icon='44']:before { content: ")"; }
+.icon[data-icon='45']:before { content: "H"; }
+.icon[data-icon='46']:before { content: "V"; }
 .icon[data-icon='47']:before { content: "P"; }
 
 
@@ -140,7 +140,7 @@ body {
   text-align: center;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: #002;
+  background-color: #003;
   border-radius: 5px;
   font-size: 2rem;
   margin: 1rem 0;
@@ -156,7 +156,7 @@ body {
 .yourPlace {
   font-size: 1.8rem;
   color: white;
-  background: #003;
+  background: #002;
   padding: 13px;
   border-radius: 5px;
   width: 100%;
